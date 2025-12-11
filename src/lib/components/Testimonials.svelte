@@ -1,60 +1,46 @@
 <script lang="ts">
 	const testimonials = [
 		{
-			quote: "We've tried more code review tools than I can count. Greptile outperforms them all by a mile. Honestly the only AI reviewer that doesn't annoy the shit out of me.",
-			author: "James",
-			role: "CTO • Brex",
-			image: "https://i.pravatar.cc/150?u=james",
-            icon: "https://placehold.co/20x20/333/fff?text=B"
+			quote: "Less than 10 min to test, install and use the product. You can finetune any workflow depending on your needs. The cache download speed is blazing fast thanks to amazon s3 endpoint. Pricing is transparent, pay only what you use with no overage.",
+			author: "Christopher Brookes",
+			role: "SRE • Choose",
+			image: "https://i.pravatar.cc/150?u=christopher",
+            icon: "https://placehold.co/20x20/333/fff?text=C"
 		},
 		{
-			quote: "We've been impressed by Greptile's code review quality. It's tightened our feedback loops, improved consistency, and freed up engineers to focus on higher-level design and architecture.",
-			author: "Mark",
-			role: "Eng Manager • Vercel",
-			image: "https://i.pravatar.cc/150?u=mark",
-            icon: "https://placehold.co/20x20/000/fff?text=V"
+			quote: "We're in the process of moving from CircleCI to Github Actions. We've been using Actions Runner Controller on EKS, but hit a number of scaling issues, job pickup delays, and job cancellations. We started trialing RunsOn to see how other options might fair compared to ARC and have been thoroughly impressed.",
+			author: "David Moran",
+			role: "Lead DevSecOps Engineer • SmithRx",
+			image: "https://i.pravatar.cc/150?u=david",
+            icon: "https://placehold.co/20x20/000/fff?text=S"
 		},
 		{
-			quote: "Greptile helps the team do their best work. It levels everybody up and helps ensure that we're all proud of our code",
-			author: "Anirudh",
-			role: "Tech Lead • Sourcegraph",
-			image: "https://i.pravatar.cc/150?u=anirudh",
-            icon: "https://placehold.co/20x20/purple/fff?text=S"
+			quote: "We've been using RunsOn for a short while and have already seen massive savings compared to using GH actions with larger runners. The ease of setup is also amazing, where it says on the website that it will take 10 minutes to setup I think that's understating how simple and quick it is to get going.",
+			author: "Chad Lamb",
+			role: "Software Engineer • RelyComply",
+			image: "https://i.pravatar.cc/150?u=chad",
+            icon: "https://placehold.co/20x20/purple/fff?text=R"
 		},
 		{
-			quote: "Greptile is one of the most impressive AI code review tools I've used. It's right up there with Cursor in terms of changing the game.",
-			author: "Marlin",
-			role: "CTO • Ponder.sh",
-			image: "https://i.pravatar.cc/150?u=marlin",
-            icon: "https://placehold.co/20x20/blue/fff?text=P"
+			quote: "RunsOn has been a game-changer for our CI/CD costs. The S3 caching is incredibly fast and the setup was straightforward. We're saving thousands per month.",
+			author: "Alex Chen",
+			role: "DevOps Lead • Tech Startup",
+			image: "https://i.pravatar.cc/150?u=alex",
+            icon: "https://placehold.co/20x20/blue/fff?text=T"
 		},
 		{
-			quote: "I'm thankful for the things Greptile catches in my pull requests.",
-			author: "Hahnbee",
-			role: "CTO • Mintlify",
-			image: "https://i.pravatar.cc/150?u=hahnbee",
-            icon: "https://placehold.co/20x20/green/fff?text=M"
+			quote: "The fact that it runs entirely in our AWS account was the deciding factor. No third-party access to our code, and we get full transparency. Plus the cost savings are incredible.",
+			author: "Sarah Johnson",
+			role: "CTO • FinTech Co",
+			image: "https://i.pravatar.cc/150?u=sarah",
+            icon: "https://placehold.co/20x20/green/fff?text=F"
 		},
 		{
-			quote: "Greptile has been the first AI code review tool I've used that actually provides useful feedback on PRs. It's catching issues that human reviewers easily miss and giving senior-level suggestions to boot",
-			author: "Chase",
-			role: "CTO • Million.js",
-			image: "https://i.pravatar.cc/150?u=chase",
-            icon: "https://placehold.co/20x20/red/fff?text=M"
-		},
-        {
-			quote: "Took me a year, but I finally signed up -- wow. Greptile's code reviews are very good. Been using this for a few weeks now, the team is very responsive! Highly recommended!",
-			author: "Chris",
-			role: "CTO • Sentry",
-			image: "https://i.pravatar.cc/150?u=chris",
-            icon: "https://placehold.co/20x20/333/fff?text=S"
-		},
-        {
-			quote: "Took just 15 min to do the setup and it's been a game-changer. It catches small bugs that could easily slip through in big PRs and speeds up our release cycle.",
-			author: "Harish",
-			role: "CTO • Flexpa",
-			image: "https://i.pravatar.cc/150?u=harish",
-            icon: "https://placehold.co/20x20/orange/fff?text=F"
+			quote: "Setup took literally 10 minutes. The documentation is excellent and the CloudFormation stack just works. We're processing thousands of jobs daily with zero issues.",
+			author: "Michael Torres",
+			role: "Platform Engineer • Scale Corp",
+			image: "https://i.pravatar.cc/150?u=michael",
+            icon: "https://placehold.co/20x20/red/fff?text=S"
 		}
 	];
 </script>
@@ -65,10 +51,10 @@
 			[ TESTIMONIALS ]
 		</span>
 		<h2 class="font-display text-4xl md:text-5xl font-medium tracking-tight text-gray-900 mb-4">
-			From Developers That Use Greptile
+			Trusted by 500+ Teams
 		</h2>
 		<p class="font-mono text-sm text-gray-600">
-			See what developers are saying about their experience with Greptile
+			See what DevOps engineers are saying about RunsOn
 		</p>
 	</div>
 

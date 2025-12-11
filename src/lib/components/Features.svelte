@@ -11,56 +11,56 @@
 	<div class="flex flex-col md:flex-row justify-between items-start md:items-end mb-16 gap-6 relative z-10">
 		<div>
 			<span class="font-mono text-[10px] text-gray-500 uppercase tracking-widest mb-4 block">
-				[ SHIP FASTER ]
+				[ WHY RUNSON ]
 			</span>
 			<h2 class="font-display text-4xl md:text-5xl lg:text-6xl font-medium tracking-tight text-gray-900 mb-4">
-				Your second pair of eyes.
+				Fast. Simple. Affordable.
 			</h2>
 			<p class="font-mono text-sm text-gray-600 max-w-lg">
-				Greptile automatically reviews PRs in Github and GitLab with full context of your codebase.
+				Self-hosted GitHub Actions runners on AWS EC2 with S3 caching. 10x cheaper than GitHub-hosted runners.
 			</p>
 		</div>
 		
-		<button class="bg-black text-white px-5 py-2.5 rounded text-sm font-medium hover:bg-gray-800 transition-colors flex items-center gap-2 font-mono uppercase tracking-wide text-xs">
-			See Greptile in action ->
-		</button>
+		<a href="https://runs-on.com/docs" class="bg-black text-white px-5 py-2.5 rounded text-sm font-medium hover:bg-gray-800 transition-colors flex items-center gap-2 font-mono uppercase tracking-wide text-xs">
+			Read the docs ->
+		</a>
 	</div>
 
 	<div class="grid grid-cols-1 md:grid-cols-2 gap-6">
 		<FeatureCard 
-			subtitle="[ IN-LINE COMMENTS ]"
-			title="Get context-aware<br>comments on your PRs"
-			description="In-line comments to identify bugs, antipatterns, security issues, and more."
+			subtitle="[ 10X COST SAVINGS ]"
+			title="Pay only for<br>what you use"
+			description="Run on AWS EC2 at actual cost. No markup, no hidden fees. Transparent AWS billing."
 			tagColor="bg-brand-green"
 			tagIcon="arrow"
-            imageSrc="https://placehold.co/600x400/FFFFFF/E5E7EB?text=PR+Comments+UI"
+            imageSrc="/generated/image-devops-engineer-looking-at-computer-scre-1765486797699-0.webp"
 		/>
 		
 		<FeatureCard 
-			subtitle="[ CUSTOM CONTEXT ]"
-			title="Describe your coding<br>standards in English"
-			description="Tell Greptile about your team's best practices. Greptile will enforce them across PRs."
+			subtitle="[ MAGIC CACHE ]"
+			title="5x faster builds<br>with S3 caching"
+			description="Transparent S3-based caching that's 5x faster than GitHub's cache. Plus EBS snapshot caching for Docker."
 			tagColor="bg-accent-orange"
 			tagIcon="plus"
-            imageSrc="https://placehold.co/600x400/FFFFFF/E5E7EB?text=Coding+Standards+UI"
+            imageSrc="/generated/image-abstract-visualization-of-fast-data-tran-1765486811754-5.webp"
 		/>
 		
 		<FeatureCard 
-			subtitle="[ PR SUMMARIES ]"
-			title="Quickly understand PRs<br>with AI-generated summaries"
-			description="Get mermaid diagrams, file-by-file breakdowns, and confidence scores for every PR."
+			subtitle="[ SIMPLE SETUP ]"
+			title="10 minutes from<br>zero to running"
+			description="CloudFormation stack deploys everything. Just add 'runs-on' to your workflow YAML. That's it."
 			tagColor="bg-accent-pink"
 			tagIcon="arrow"
-            imageSrc="https://placehold.co/600x400/FFFFFF/E5E7EB?text=PR+Summaries+UI"
+            imageSrc="/generated/image-close-up-of-hands-typing-on-laptop-with--1765486809082-4.webp"
 		/>
 		
 		<FeatureCard 
-			subtitle="[ LEARNING ]"
-			title="Greptile learns by<br>reading your comments"
-			description="Greptile infers your team's coding standards by reading every engineer's comments on PRs."
+			subtitle="[ FULLY SELF-HOSTED ]"
+			title="Your AWS account,<br>your control"
+			description="Runs entirely in your AWS account. No third-party access. Full code transparency."
 			tagColor="bg-accent-yellow"
 			tagIcon="plus"
-            imageSrc="https://placehold.co/600x400/FFFFFF/E5E7EB?text=Learning+UI"
+            imageSrc="/generated/image-server-racks-in-a-modern-data-center-wit-1765486801041-1.webp"
 		/>
 	</div>
 </section>

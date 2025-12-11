@@ -3,32 +3,32 @@
 
 	const faqs = [
 		{
-			question: "How does Greptile pricing work?",
-			answer: "Greptile charges per active developer. An active developer is anyone who opens a PR in a given month."
+			question: "How does RunsOn pricing work?",
+			answer: "RunsOn has three tiers: Demo (free 15-day trial), Commercial (€300/year), and Sponsorship (€1,500/year with source code access). You pay AWS costs directly at actual rates - no markup."
 		},
 		{
-			question: "Can Greptile be self-hosted?",
-			answer: "Yes, Greptile can be deployed in your own VPC or on-premise environment. Contact us for enterprise pricing."
+			question: "How long does setup take?",
+			answer: "Setup takes about 10 minutes. Deploy the CloudFormation stack, add your license key to GitHub secrets, and update your workflow YAML. That's it."
 		},
 		{
-			question: "Are there free trials or discounts available for Greptile?",
-			answer: "Yes, we offer a 14-day free trial with no credit card required. We also offer discounts for startups and open source projects."
+			question: "Does RunsOn work with private repositories?",
+			answer: "Yes, RunsOn works with both public and private repositories. It runs entirely in your AWS account with no third-party access."
 		},
 		{
-			question: "What programming languages does Greptile support?",
-			answer: "Greptile supports over 30 languages including Python, TypeScript/JavaScript, Go, Rust, Java, C++, and more."
+			question: "What's the difference between RunsOn and Actions Runner Controller?",
+			answer: "RunsOn is simpler - no Kubernetes required. It uses native AWS services (EC2, S3, Lambda) and includes features like S3 caching and automatic cost attribution that ARC doesn't have."
 		},
 		{
-			question: "Is Greptile compatible with GitLab?",
-			answer: "Yes, Greptile works with both GitHub and GitLab."
+			question: "Can I use RunsOn with GitHub Enterprise?",
+			answer: "Yes, RunsOn works with GitHub.com, GitHub Enterprise Cloud, and GitHub Enterprise Server."
 		},
 		{
-			question: "Can I use Greptile's API for my own product?",
-			answer: "Yes, we have a comprehensive API. Check out our documentation for more details."
+			question: "What AWS regions are supported?",
+			answer: "RunsOn supports all major AWS regions. You choose the region during CloudFormation deployment."
 		},
 		{
-			question: "What is AI code review?",
-			answer: "AI code review uses large language models to analyze your code changes and provide feedback on bugs, security issues, and coding standards."
+			question: "Is there support for non-profit organizations?",
+			answer: "Yes, RunsOn offers free non-commercial licenses for non-profit organizations."
 		}
 	];
 
